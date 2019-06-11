@@ -1,5 +1,5 @@
 #app {
-  background-color: #e8e054;
+  background-color: pink;
   height: 700px;
   width: 100%;
 }
@@ -12,9 +12,9 @@
 }
 
 .images {
-  height: 130px;
+  height: 150px;
   max-width: 200px;
-  padding: 30px;
+  padding: 40px;
   margin: 1px;
-  flex: 1 1 160px;
+  flex: 1;
 }
