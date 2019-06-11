@@ -1,37 +1,43 @@
-body{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    background-color: green;
-    
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background-color: green;
 }
 
-#main-content{
-    height: 90%;
-    width: 100%;
-    display: flex;
-    background-color: brown;
-    align-content: space-between;
-    flex-wrap: wrap; 
+.header {
+  height: 5%;
+  width: 100%;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 40px;
+}
+#main-content {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  background-color: brown;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 
-#header{
-    background-color: aqua;
-    height: 5%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 40px;
+#nav {
+  background-color: aqua;
+  height: 5%;
+  width: 100%;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 40px;
 }
 
-#footer{
-    background-color: greenyellow;
-    height: 5%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 40px;
+#footer {
+  background-color: greenyellow;
+  height: 5%;
+  width: 100%;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 40px;
 }
 
 #app {
@@ -39,7 +45,7 @@ body{
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .row {
@@ -57,16 +63,14 @@ body{
   flex: 1;
 }
 
-#row1{
-    background-color: coral;
-
+#row1 {
+  background-color: coral;
 }
 
-#row2{
-    background-color: crimson;
-
+#row2 {
+  background-color: crimson;
 }
 
-#row3{
-    background-color: cadetblue;
+#row3 {
+  background-color: cadetblue;
 }
